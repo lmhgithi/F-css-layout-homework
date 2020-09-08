@@ -20,13 +20,24 @@ ul {
 }
 
 header {
+  background-color: black;
+  padding: 10px;
+}
+
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
   color: white;
   font-size: 0.8em;
-  padding: 10px;
+}
+
+nav p {
+  cursor: pointer;
+}
+
+nav p:hover {
+  text-decoration-line: underline;
 }
 
 main {
