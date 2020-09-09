@@ -21,7 +21,7 @@ ul {
 
 header {
   background-color: black;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 nav {
@@ -32,12 +32,9 @@ nav {
   font-size: 0.8em;
 }
 
-nav p {
-  cursor: pointer;
-}
-
-nav p:hover {
-  text-decoration-line: underline;
+.nav-item {
+  color: white;
+  text-decoration-line: none;
 }
 
 main {
@@ -104,6 +101,11 @@ article {
 
 .article-content {
   padding: 5px 10px;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .aside-right {
