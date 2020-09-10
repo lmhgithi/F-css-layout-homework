@@ -52,13 +52,14 @@ main {
   padding: 20px 20px;
 }
 
-.about {
-  background-color: rgba(114, 112, 112, 0.11);
+.aside-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.about h2,
-.archives h2 {
-  font-style: italic;
+.about {
+  background-color: rgba(114, 112, 112, 0.11);
 }
 
 .archives li {
